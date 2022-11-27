@@ -1,0 +1,16 @@
+%导入用来预测的输入数据
+bodyfatlnputs1=[23
+    160
+    69
+    37
+    94
+    86
+    95
+    59
+    37
+    22
+    31
+    26
+    17];
+%预测输出
+output1=sim(net,bodyfatlnputs1)
